@@ -1,0 +1,15 @@
+{
+  "name": "joys-of-small-game-development-en",
+  "version": "1.0.0",
+  "description": "Guidebook for Enjoying Creating Small Games",
+  "scripts": {
+    "serve": "honkit serve",
+    "build": "honkit build . docs"
+  },
+  "keywords": [],
+  "author": "abagames",
+  "license": "MIT",
+  "devDependencies": {
+    "honkit": "^5.1.0"
+  }
+}
