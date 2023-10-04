@@ -15,7 +15,7 @@ Tags correspond to various mechanisms, such as:
 - Mixing in items with penalties [^4]: Rather than mindlessly continuing attacks, it’s necessary to carefully observe the screen’s conditions to time the attacks.
 - 1D field [^5]: The game screen can be expressed in one dimension, and characters can only move left and right (or up and down).
 - Proximity bonus [^6]: By placing bonus points near obstacles, a basic form of risk and reward is realized.
-- Attribute inversion upon button press [^7]: An example of special player operations.
+- Attribute inversion upon button press [^7]: Various special behaviors can be achieved by devising attributes.
 
 The pages are intended to be used as follows:
 

@@ -10,7 +10,15 @@ I have also crafted a pixel art creation library following the method of random 
 
 The products of this method are highly randomized, excelling at creating free-form characters like spaceships. However, they struggle with characters with constraints like monsters viewed from the side with distinct eyes, arms, and legs. Therefore, pixel art generators come with inherent strengths and weaknesses, with no one-size-fits-all solution available.
 
-Lately, with the advent of generative AI, it has become possible to create art based on prompts, and methods to apply generative AI to pixel art have emerged.[^4] However, generative AI tends to excel at creating larger images, and is not quite suited for crafting small images like 16x16 pixel art. The evolution of technology might enable the generation of small images and their animations like pixel art in the future, but at the current moment, it has not reached a practical level yet.
+Recently, generative AI has enabled the creation of images based on prompts, and methods have emerged to apply this to pixel art.[^4] However, generative AI tends to excel at creating larger images, and is not well-suited for creating small images like those of 16x16 pixels.
+
+Yet, with the advancement of technology, it might become possible to generate small images like pixel art, as well as their animations. For instance, by providing the following prompt to the Bing Image Creator,[^5] which is equipped with the DALL-E 3 model, one can obtain pixel art of spaceships that can be used in a shooting game:
+
+> Create an image showcasing a collection of retro video game-style spaceships, viewed from above. Each spaceship should be designed within a 32x32 pixel grid, utilizing a 16-color palette. Arrange several of these pixelated spaceships in a visually appealing manner.
+
+<img src="../images/spaceships.jpg" alt="spaceships" width="400"/>
+
+The instruction to create images within a 32x32 pixel grid as per the prompt has not yet been accurately followed. However, issues such as these are likely to be gradually resolved with the development of future generative models.
 
 ---
 
@@ -18,3 +26,4 @@ Lately, with the advent of generative AI, it has become possible to create art b
 [^2]: [Pixel Spaceships](http://web.archive.org/web/20080228054410/http://www.davebollinger.com/works/pixelspaceships/)
 [^3]: [pixel-art-gen](https://github.com/abagames/pixel-art-gen)
 [^4]: [5 Best AI Pixel Art Generators in 2023](https://mspoweruser.com/ai-pixel-art-generator/)
+[^5]: [Bing Image Creator](https://www.bing.com/create)

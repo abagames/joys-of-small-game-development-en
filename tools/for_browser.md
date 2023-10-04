@@ -36,11 +36,11 @@ With these considerations, I created a game library called crisp-game-lib.[^2] T
 
 In crisp-game-lib, by writing a single JavaScript file [^3] for the game's `title`, `description`, and an `update` function called 60 times per second, you can create browser games that work on both PC and mobile.
 
-A unique feature not found in other libraries is the integration of rendering functions for boxes, lines, arcs, text, characters, and collision detection.
+A unique feature not found in other libraries is the ability to render boxes, lines, arcs, text, and characters, with integrated collision detection.
 
 [![ref_collision screenshot](https://abagames.github.io/crisp-game-lib-games/ref_collision/screenshot.gif)](https://abagames.github.io/crisp-game-lib-games/?ref_collision)
 
-When an element is drawn, the result indicates whether that element overlaps with other shapes, text, or characters already on the screen. Just by checking this value, collisions can be detected even with complex shapes like lines and arcs, without needing specific collision detection processing.
+When an element is drawn with the function, the return value will tell you if the element overlaps with other shapes, text, or characters already on the screen. Just by checking this value, collisions can be detected even with complex shapes like lines and arcs, without needing specific collision detection processing.
 
 Additionally, the library has the following features to make the game juicy:
 

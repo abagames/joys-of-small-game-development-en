@@ -57,7 +57,7 @@ During the time I crafted a plethora of mini-games, I penned some methods on my 
 - Efficiently borrowing motifs and rules from existing games, not limited to video games but also considering traditional sports.
 - Take inspiration from retro games by refashioning a part of a retro game into a separate game.
 - Incorporating staple mechanics like chain reactions and gravity.
-- Focusing on high scores achieved by collecting or knocking down objects as a base for enjoyment.
+- As a basis for enjoying the game, focus on the high score achieved by collecting and defeating objects collectively.
 - Transposing interesting behaviors from natural phenomena or geometry.
 - Linking physical behaviors to controls to generate fun.
 - Visually indicating successful play to enhance a sense of achievement.
@@ -67,7 +67,7 @@ During the time I crafted a plethora of mini-games, I penned some methods on my 
 - Balancing exhilaration and tension.
 - Seeking rules to elevate game tempo.
 - Presenting game settings or backstories to link the game and narrative.
-- Gradually trimming down the novelty.
+- Make the game easy to play by removing the novelty that confuses players.
 
 <br>
 

@@ -14,7 +14,7 @@ Magenta.js, when provided with a music score, utilizes MusicRNN [^6] to automati
 
 Upon clicking the 'Generate' button in the center of the screen, a new phrase based on the phrase on the left is generated and displayed, played on the right. It generates a simple phrase consisting only of melody and bass tracks, but it's able to produce a tune reasonably reminiscent of retro game music. For multiple tracks, each phrase is created separately, and adjustments are made in case the bass is discordant with the melody (ensuring the frequency ratios are about 1 to 4). Unchecking the checkbox below the center disables this adjustment, allowing for more freeform phrase generation.
 
-When it comes to the automatic generation of sound effects, targeting melody with MusicRNN seems challenging. Instead, there are numerous waveform-based solutions, many based on sfxr.[^8] These tools can be utilized to add simple sound effects to action games.
+When it comes to the automatic generation of sound effects, it seems to be difficult with MusicRNN, which targets melodies. Instead, there are numerous waveform-based solutions, many based on sfxr.[^8] These tools can be utilized to add simple sound effects to action games.
 
 ---
 

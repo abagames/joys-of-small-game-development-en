@@ -12,13 +12,13 @@ Various level generators for Sokoban already exist. The typical method of creati
 
 The third step essentially ensures that if a player were to "pull" and shift the boxes, the boxes can indeed be moved to their correct positions.
 
-When examining an implementation of a generator based on the above method,[^2] if a player gets stuck, it backtracks to search for other arrangements. A paper on the generation method [^3] introduced metrics such as the number of times a player pushes a box in a straight line or goes to push another box, with the aim of creating levels where boxes are placed as far from the correct positions as possible, thereby increasing the tasks a player must perform.
+One generator implementation based on the above method,[^2] if a player gets stuck, it backtracks to search for other arrangements. A paper on the generation method [^3] introduced metrics such as the number of times a player pushes a box in a straight line or goes to push another box, with the aim of creating levels where boxes are placed as far from the correct positions as possible, thereby increasing the tasks a player must perform.
 
 There's also a paper aiming to generate levels for any puzzle created [^4] using the universal puzzle game creation language known as PuzzleScript.[^5] By passing the characteristics of game objects from the PuzzleScript rule analyzer to the level generator and evaluator, levels are created. This approach, where the evaluator determines whether a generated level is solvable or enjoyable, differs from the aforementioned reverse simulation method.
 
 While existing approaches are diverse, let’s attempt level generation for our custom puzzle game.
 
-I attempted to create a puzzle game, slickslack,[^6] reminiscent of a mix between Sokoban and Pengo.[^7] The objective of the game, displayed by a blue square, is to flick boxes to slip them into yellow correct positions (click the image to play).
+I attempted to create a puzzle game, slickslack,[^6] reminiscent of a mix between Sokoban and Pengo.[^7] The object of the game is to flick the boxes, which appear as blue squares, into the correct yellow position (click the image to play).
 
 [![slickslack_screenshot](https://abagames.github.io/slickslack/screenshot.gif)](https://abagames.github.io/slickslack/index.html)
 

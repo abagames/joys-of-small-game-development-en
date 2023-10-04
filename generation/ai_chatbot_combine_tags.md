@@ -1,6 +1,6 @@
 ## Teaching Game Mechanics to AI
 
-In the previous section, we listed the game mechanics of action mini-games as tags.[^1] We demonstrated that by randomly combining multiple tags, one could conceptualize games utilizing these mechanics. By using ChatGPT for this task, we may be able to come up with new game ideas.
+In the previous section, I listed the game mechanics of action mini-games as tags.[^1] We demonstrated that by randomly combining multiple tags, one could conceptualize games utilizing these mechanics. By using ChatGPT for this task, we may be able to come up with new game ideas.
 
 We provided the following prompt to ChatGPT, asking it to act as a game designer:
 

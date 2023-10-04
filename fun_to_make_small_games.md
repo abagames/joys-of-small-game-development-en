@@ -12,7 +12,7 @@ Another example is a game where you cut a rope with a tap, ensuring it doesn't t
 
 [![C NODES](https://github.com/abagames/crisp-game-lib-games/raw/main/docs/cnodes/screenshot.gif)](https://abagames.github.io/crisp-game-lib-games/?cnodes)
 
-The allure of small games lies in the abbreviated development time they require. A game could be quickly whipped up in about 2 hours, or within around 10 hours if met with challenges. However, once you start diving into artwork, the time investment can become endless. Here, I am talking about the scale of creating one game per week, akin to the initiative, Game a Week,[^4] which is manageable from a developer's perspective.
+The allure of small games lies in the abbreviated development time they require. A game could be quickly whipped up in about 2 hours, or within around 10 hours if met with challenges. However, once you start diving into artwork, the time investment can become endless. The small games discussed in this article are those produced under initiatives such as "Game A Week,"[^4] in which developers aim to produce a new game each week. These games, even from a developer's standpoint, are considered small due to the constrained time frame in which they are developed.
 
 The abbreviated development time means you can easily experiment with various ideas. I’ve enjoyed crafting and testing unconventional games.
 

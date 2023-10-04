@@ -70,7 +70,7 @@ Common in golf games, the angle increases gradually as the button is held down, 
 
 [![FROOOOG](https://github.com/abagames/crisp-game-lib-games/raw/main/docs/froooog/screenshot.gif)](https://abagames.github.io/crisp-game-lib-games/?froooog)
 
-The frog's leap distance is determined by the duration the button is held down; a brute force solution to the challenge of moving players in all directions with one button.
+The frog's leap distance is determined by the duration the button is held down; a solution to the challenge of moving the player from one place to multiple locations with one button.
 
 #### Stretching
 
@@ -98,7 +98,7 @@ A defensive wall always shields below, reflecting enemy fire, but holding the bu
 
 [![BAMBOO](https://github.com/abagames/crisp-game-lib-games/raw/main/docs/bamboo/screenshot.gif)](https://abagames.github.io/crisp-game-lib-games/?bamboo)
 
-Pressing the button renders players invulnerable to bamboo, letting them slip through and bounce between bamboo shoots, facilitating rapid bamboo cutting.
+Pressing the button allows the player to pass through the bamboo and quickly cut through it by bouncing between the bamboos.
 
 #### Other Special Mechanisms
 

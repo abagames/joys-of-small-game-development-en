@@ -6,7 +6,7 @@ The quintessential example of a fantasy console is undoubtedly PICO-8.[^2] With 
 
 Despite the term "console",[^3] many fantasy consoles encompass a development environment within their build. They tend to bear resemblances to microcomputers like the MSX or Family BASIC.
 
-Creating a fantasy console at the level of PICO-8 is quite a challenge. However, the aspiration to craft one's own fantasy console is enticing. This necessitates deliberately limiting the specifications. Aiming for a fantasy console with a very small screen, simple sound output, and basic input means led to the creation of PEEKPOKE.[^4]
+Creating a fantasy console at the level of PICO-8 is quite a challenge. However, the aspiration to craft one's own fantasy console is enticing. This necessitates deliberately limiting the specifications. Aiming for a fantasy console with a very small screen, simple sound output, and basic input means led to my creation of PEEKPOKE.[^4]
 
 PEEKPOKE is playable on PC and smartphone browsers (playable with a screen click).
 
