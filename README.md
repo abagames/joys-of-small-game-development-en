@@ -24,7 +24,7 @@ If computers could create games, they would further ease human effort. ["Can Sma
 
 I've woven various topics concerning small game development throughout this article. Through this narrative, I hope readers will feel the charm of small game development, and that this may serve as a catalyst for many to take up the challenge of creation.
 
-- license: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)
+- license: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 - repository: [joys-of-small-game-development-en](https://github.com/abagames/joys-of-small-game-development-en)
 - Top page of this article: [Introduction - Joys of Small Game Development](https://abagames.github.io/joys-of-small-game-development-en/)
 - Author's web page: [ABA Games](http://www.asahi-net.or.jp/~cs8k-cyu/)
