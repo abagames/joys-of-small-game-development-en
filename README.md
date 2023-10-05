@@ -1,3 +1,5 @@
+<img src="./images/joys_of_small_game_development.png" alt="Joys of Small Game Development cover image" width="700"/>
+
 # Joys of Small Game Development
 
 ## Introduction
