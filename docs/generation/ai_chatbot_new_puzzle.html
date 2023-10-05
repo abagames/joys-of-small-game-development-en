@@ -1,0 +1,662 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Creating Puzzle Games with AI Chatbot · Joys of Small Game Development</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 5.1.1">
+        <meta name="author" content="abagames">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="ai_chatbot_combine_tags.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../fun_to_make_small_games.html">
+            
+                <a href="../fun_to_make_small_games.html">
+            
+                    
+                    Making small games, which is fun in itself
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../device_and_environment.html">
+            
+                <a href="../device_and_environment.html">
+            
+                    
+                    Target Devices and Development Environment
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../ideas/">
+            
+                <a href="../ideas/">
+            
+                    
+                    How to Come Up with Ideas for Small Games
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../ideas/break_down_game.html">
+            
+                <a href="../ideas/break_down_game.html">
+            
+                    
+                    Dissecting and Assembling Game Mechanics
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../restrictions/">
+            
+                <a href="../restrictions/">
+            
+                    
+                    Constraints: A Catalyst for Creativity and Game Completion
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../restrictions/one_button.html">
+            
+                <a href="../restrictions/one_button.html">
+            
+                    
+                    The Possibilities of One-Button Games
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../restrictions/limited_size.html">
+            
+                <a href="../restrictions/limited_size.html">
+            
+                    
+                    Creating Games within Limited Size Constraints
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../difficulty/">
+            
+                <a href="../difficulty/">
+            
+                    
+                    What Constitutes Appropriate Difficulty in Small Games
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../difficulty/curve.html">
+            
+                <a href="../difficulty/curve.html">
+            
+                    
+                    Rising Difficulty Curve
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../difficulty/level.html">
+            
+                <a href="../difficulty/level.html">
+            
+                    
+                    Level-based Difficulty Setting
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../make_game_juicy.html">
+            
+                <a href="../make_game_juicy.html">
+            
+                    
+                    Making Games ‘Juicy’
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../tools/">
+            
+                <a href="../tools/">
+            
+                    
+                    Creating Your Own Game Development Tools
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../tools/for_browser.html">
+            
+                <a href="../tools/for_browser.html">
+            
+                    
+                    Creating a Library for Small Browser Games
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../tools/for_handheld.html">
+            
+                <a href="../tools/for_handheld.html">
+            
+                    
+                    Developing Games for DIY Handheld Devices
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../tools/fantasy_console.html">
+            
+                <a href="../tools/fantasy_console.html">
+            
+                    
+                    Creating a Fantasy Console
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../procedural/">
+            
+                <a href="../procedural/">
+            
+                    
+                    Enhancing Development through Automation
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../procedural/pixel_art.html">
+            
+                <a href="../procedural/pixel_art.html">
+            
+                    
+                    Automatic Pixel Art Generation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../procedural/sound.html">
+            
+                <a href="../procedural/sound.html">
+            
+                    
+                    Automated Generation of Background Music and Sound Effects
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../procedural/puzzle_level.html">
+            
+                <a href="../procedural/puzzle_level.html">
+            
+                    
+                    Automatic Level Generation for Puzzle Games
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Can Small Games Be Self-Generated?
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.10.1" data-path="ai_chatbot_new_puzzle.html">
+            
+                <a href="ai_chatbot_new_puzzle.html">
+            
+                    
+                    Creating Puzzle Games with AI Chatbot
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="ai_chatbot_combine_tags.html">
+            
+                <a href="ai_chatbot_combine_tags.html">
+            
+                    
+                    Teaching Game Mechanics to AI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="can_ai_chatbot_create_game.html">
+            
+                <a href="can_ai_chatbot_create_game.html">
+            
+                    
+                    Can AI Chatbots Create New Games?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../conclusion.html">
+            
+                <a href="../conclusion.html">
+            
+                    
+                    In Conclusion
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Creating Puzzle Games with AI Chatbot</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="creating-puzzle-games-with-ai-chatbot">Creating Puzzle Games with AI Chatbot</h2>
+<p>The article &quot;ChatGPT invented its own puzzle game&quot; <sup><a href="#fn_1" id="reffn_1">1</a></sup> discusses a scenario where ChatGPT was tasked with devising a new logic puzzle, which led to the proposal of a game named Sumplete. In this game, numbers are placed on a two-dimensional grid with the sum of the numbers in each row and column written on the right and bottom edges, respectively. Players cross out numbers on the grid to match the provided sums.</p>
+<p><img src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd3b6e61-fb2a-4f7f-a575-97fbbffb5008_1194x1482.png" alt="Sumplete" width="400"></p>
+<p>However, this game turned out to already exist under the name Summer,<sup><a href="#fn_2" id="reffn_2">2</a></sup> designed for smartphones. It&apos;s impossible for both humans and AI to be aware of every game in existence, so creating a game that already exists is a common occurrence. Guaranteeing the novelty of a game is challenging.</p>
+<p>Nonetheless, engaging ChatGPT in brainstorming new logic puzzles is an intriguing endeavor. For instance, when prompted with the following task, ChatGPT was able to propose several puzzles:</p>
+<blockquote>
+<p>I want you to act as a logic puzzle game designer. Devise 5 novel logic puzzles. Create rules that are different from logic puzzles that already exist, such as Sudoku. The puzzle should consist of a two-dimensional grid. Several grids may be divided by walls. The initial state of the cells consists of both cells containing numerals or symbols, as well as empty cells. The player fills in the blank squares and tries to reach the correct solution.</p>
+</blockquote>
+<p>The prompt requested five logic puzzles involving a 2D grid, with some cells containing numbers or symbols, while others remain empty. The grids might be divided by walls. It&apos;s anticipated that puzzles resembling Heyawake <sup><a href="#fn_3" id="reffn_3">3</a></sup> would be suggested.</p>
+<p>Among the proposals was a puzzle called &quot;Magnet Blocks&quot;:</p>
+<blockquote>
+<p>In this puzzle, the grid contains magnets of opposite polarity (north and south). The player must fill in the grid with blocks of positive and negative polarity, such that each block attracts or repels adjacent magnets according to their polarities. A block can only be placed if it fits in with the surrounding magnets, and no two blocks of the same polarity can touch each other.</p>
+</blockquote>
+<p>Magnet Blocks, themed around magnets, presents a set of rules that are somewhat vague. However, interpreting it as a game where magnets labeled N and N, S and S can&apos;t touch, an implementation was achieved (click image to play).</p>
+<p><a href="https://abagames.github.io/crisp-game-lib-11-games/?magnetblocks" target="_blank"><img src="https://raw.githubusercontent.com/abagames/crisp-game-lib-11-games/main/docs/magnetblocks/screenshot.gif" alt="Magnet Blocks"></a></p>
+<p>Here are the specific rules:</p>
+<ul>
+<li>The grid initially contains bar magnets and walls.</li>
+<li>Bar magnets must be placed in empty cells such that N and N, S and S do not touch. Bar magnets can have any length of 3 cells or more.</li>
+<li>The puzzle is cleared when all empty cells have a bar magnet placed.</li>
+</ul>
+<p>Despite the subpar level generation logic, which renders the puzzle lacking in depth, it still qualifies as a puzzle.</p>
+<p>Is this puzzle truly novel? A similar game called Magnets <sup><a href="#fn_4" id="reffn_4">4</a></sup> exists, sharing the magnet theme but differing significantly in rules:</p>
+<ul>
+<li>Placement and orientation of bar magnets are predetermined, with a fixed length of 2.</li>
+<li>Constraints on the occurrence of + and - in each row and column are given on the grid&apos;s perimeter.</li>
+<li>Not all empty cells need to be filled.</li>
+</ul>
+<p>Thus far, no puzzle with identical rules has been discovered. However, the possibility of a similar rule set in a non-magnet themed puzzle cannot be denied.</p>
+<p>Logic puzzles often have established styles, making them a good motif for ChatGPT to brainstorm new rules around. However, due to these fixed styles, there&apos;s a high chance that what&apos;s thought to be new might align with existing games.</p>
+<p>Moreover, it&apos;s challenging for ChatGPT to generate precise rules for a viable puzzle; this requires human intervention to refine vague proposals into concrete rules. Converting these into playable program code remains a hard task.</p>
+<p>Determining whether the created puzzle is enjoyable to solve is another challenge, as it not only depends on the rules but also on the logic behind level generation.</p>
+<p>By supplementing the tasks that ChatGPT struggles with, such as creating precise rules, with other methods, programs, or plugins, the applications of AI chatbots could be further expanded.</p>
+<hr>
+<blockquote id="fn_1">
+<sup>1</sup>. <a href="https://puzzledpenguin.substack.com/p/chatgpt-invented-its-own-puzzle-game" target="_blank">ChatGPT invented its own puzzle game.</a><a href="#reffn_1" title="Jump back to footnote [1] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_2">
+<sup>2</sup>. <a href="https://web.archive.org/web/20230726112930/https://play.google.com/store/apps/details?id=com.rohitpailwangames.summerpro" target="_blank">Summer</a><a href="#reffn_2" title="Jump back to footnote [2] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_3">
+<sup>3</sup>. <a href="https://www.nikoli.co.jp/en/puzzles/heyawake/" target="_blank">Heyawake</a><a href="#reffn_3" title="Jump back to footnote [3] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_4">
+<sup>4</sup>. <a href="https://www.chiark.greenend.org.uk/~sgtatham/puzzles/js/magnets.html" target="_blank">Magnets</a><a href="#reffn_4" title="Jump back to footnote [4] in the text."> ↩</a>
+</blockquote>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Can Small Games Be Self-Generated?">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="ai_chatbot_combine_tags.html" class="navigation navigation-next " aria-label="Next page: Teaching Game Mechanics to AI">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Creating Puzzle Games with AI Chatbot","level":"1.10.1","depth":2,"next":{"title":"Teaching Game Mechanics to AI","level":"1.10.2","depth":2,"path":"generation/ai_chatbot_combine_tags.md","ref":"generation/ai_chatbot_combine_tags.md","articles":[]},"previous":{"title":"Can Small Games Be Self-Generated?","level":"1.10","depth":1,"path":"generation/README.md","ref":"generation/README.md","articles":[{"title":"Creating Puzzle Games with AI Chatbot","level":"1.10.1","depth":2,"path":"generation/ai_chatbot_new_puzzle.md","ref":"generation/ai_chatbot_new_puzzle.md","articles":[]},{"title":"Teaching Game Mechanics to AI","level":"1.10.2","depth":2,"path":"generation/ai_chatbot_combine_tags.md","ref":"generation/ai_chatbot_combine_tags.md","articles":[]},{"title":"Can AI Chatbots Create New Games?","level":"1.10.3","depth":2,"path":"generation/can_ai_chatbot_create_game.md","ref":"generation/can_ai_chatbot_create_game.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"abagames","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Joys of Small Game Development","gitbook":"*","description":"Guidebook for Enjoying Creating Small Games"},"file":{"path":"generation/ai_chatbot_new_puzzle.md","mtime":"2023-10-01T13:16:25.705Z","type":"markdown"},"gitbook":{"version":"5.1.1","time":"2023-10-05T11:03:45.764Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

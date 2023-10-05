@@ -1,0 +1,695 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Creating Games within Limited Size Constraints · Joys of Small Game Development</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 5.1.1">
+        <meta name="author" content="abagames">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../difficulty/" />
+    
+    
+    <link rel="prev" href="one_button.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../fun_to_make_small_games.html">
+            
+                <a href="../fun_to_make_small_games.html">
+            
+                    
+                    Making small games, which is fun in itself
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../device_and_environment.html">
+            
+                <a href="../device_and_environment.html">
+            
+                    
+                    Target Devices and Development Environment
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../ideas/">
+            
+                <a href="../ideas/">
+            
+                    
+                    How to Come Up with Ideas for Small Games
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../ideas/break_down_game.html">
+            
+                <a href="../ideas/break_down_game.html">
+            
+                    
+                    Dissecting and Assembling Game Mechanics
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Constraints: A Catalyst for Creativity and Game Completion
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="one_button.html">
+            
+                <a href="one_button.html">
+            
+                    
+                    The Possibilities of One-Button Games
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.2" data-path="limited_size.html">
+            
+                <a href="limited_size.html">
+            
+                    
+                    Creating Games within Limited Size Constraints
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../difficulty/">
+            
+                <a href="../difficulty/">
+            
+                    
+                    What Constitutes Appropriate Difficulty in Small Games
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../difficulty/curve.html">
+            
+                <a href="../difficulty/curve.html">
+            
+                    
+                    Rising Difficulty Curve
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../difficulty/level.html">
+            
+                <a href="../difficulty/level.html">
+            
+                    
+                    Level-based Difficulty Setting
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../make_game_juicy.html">
+            
+                <a href="../make_game_juicy.html">
+            
+                    
+                    Making Games ‘Juicy’
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../tools/">
+            
+                <a href="../tools/">
+            
+                    
+                    Creating Your Own Game Development Tools
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../tools/for_browser.html">
+            
+                <a href="../tools/for_browser.html">
+            
+                    
+                    Creating a Library for Small Browser Games
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../tools/for_handheld.html">
+            
+                <a href="../tools/for_handheld.html">
+            
+                    
+                    Developing Games for DIY Handheld Devices
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../tools/fantasy_console.html">
+            
+                <a href="../tools/fantasy_console.html">
+            
+                    
+                    Creating a Fantasy Console
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../procedural/">
+            
+                <a href="../procedural/">
+            
+                    
+                    Enhancing Development through Automation
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../procedural/pixel_art.html">
+            
+                <a href="../procedural/pixel_art.html">
+            
+                    
+                    Automatic Pixel Art Generation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../procedural/sound.html">
+            
+                <a href="../procedural/sound.html">
+            
+                    
+                    Automated Generation of Background Music and Sound Effects
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../procedural/puzzle_level.html">
+            
+                <a href="../procedural/puzzle_level.html">
+            
+                    
+                    Automatic Level Generation for Puzzle Games
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../generation/">
+            
+                <a href="../generation/">
+            
+                    
+                    Can Small Games Be Self-Generated?
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../generation/ai_chatbot_new_puzzle.html">
+            
+                <a href="../generation/ai_chatbot_new_puzzle.html">
+            
+                    
+                    Creating Puzzle Games with AI Chatbot
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="../generation/ai_chatbot_combine_tags.html">
+            
+                <a href="../generation/ai_chatbot_combine_tags.html">
+            
+                    
+                    Teaching Game Mechanics to AI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="../generation/can_ai_chatbot_create_game.html">
+            
+                <a href="../generation/can_ai_chatbot_create_game.html">
+            
+                    
+                    Can AI Chatbots Create New Games?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../conclusion.html">
+            
+                <a href="../conclusion.html">
+            
+                    
+                    In Conclusion
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Creating Games within Limited Size Constraints</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="creating-games-within-limited-size-constraints">Creating Games within Limited Size Constraints</h2>
+<p>Game Jams often impose constraints on the size of game binaries or source code. Notable examples include the competition js13kGames,<sup><a href="#fn_1" id="reffn_1">1</a></sup> which challenges participants to create browser games within 13 kilobytes.</p>
+<p>Attempts to achieve diverse expressions using short code span across many fields, not just gaming. For instance, using ggplot2,<sup><a href="#fn_2" id="reffn_2">2</a></sup> beautiful geometric patterns can be created within 280 characters.<sup><a href="#fn_3" id="reffn_3">3</a></sup> Additionally, collections of music and generative art have been created within 140 characters <sup><a href="#fn_4" id="reffn_4">4</a></sup> using SuperCollider <sup><a href="#fn_5" id="reffn_5">5</a></sup> and JavaScript on platforms like Dwitter.<sup><a href="#fn_6" id="reffn_6">6</a></sup></p>
+<p>The essence of compactly coded creations lies in the beauty of densely packed information. They embody the ingenuity of achieving maximum effects with minimal components.</p>
+<p>On Dwitter, users share not only graphics and music, but games as well. For example, the game Crossy Tortoise <sup><a href="#fn_7" id="reffn_7">7</a></sup> involves navigating a tortoise across roads, exemplifying a one-button game realized within 140 characters. However, it lacks a scoring system, and the game concludes once the crossing is achieved.</p>
+<p>To qualify as a game, the following elements are desirable:</p>
+<ul>
+<li>Presence of a scoring system.</li>
+<li>A game-over condition.</li>
+<li>Escalating difficulty.</li>
+<li>Preferably, sound effects.</li>
+</ul>
+<p>Considering the inclusion of these elements, let’s ponder the plausible regulations for short code:</p>
+<ul>
+<li>Crafting a JavaScript update function for every frame, with a maximum length of 256 characters.</li>
+<li>Incorporating libraries like p5.js,<sup><a href="#fn_8" id="reffn_8">8</a></sup> Tone.js,<sup><a href="#fn_9" id="reffn_9">9</a></sup> and lodash.range <sup><a href="#fn_10" id="reffn_10">10</a></sup> for convenient functions suited for gaming.</li>
+<li>Assigning one-character aliases like M, X, Y, R, N, and A to p5.mouseIsPressed, p5.mouseX, p5.mouseY, p5.random(), Tone.synth.triggerAttackRelease(), and _.range() respectively, to allow function calls within fewer characters.</li>
+<li>Variable S, representing the score, is displayed at the top, while variable T, representing the frame count since the game started, is utilized for difficulty adjustments.</li>
+</ul>
+<p>Several sample games were created adhering to these regulations <sup><a href="#fn_11" id="reffn_11">11</a></sup> (click the image to play).</p>
+<p><a href="https://abagames.github.io/jsgame256/springcar.html" target="_blank"><img src="https://raw.githubusercontent.com/abagames/jsgame256/master/docs/springcar.png" alt="springcar"></a></p>
+<p>One such game, springcar, involves a car that jumps upon clicking. The code is as follows:</p>
+<pre><code class="lang-javascript"><span class="hljs-title function_">clear</span>(),
+  T || ((s = <span class="hljs-title function_">A</span>(<span class="hljs-number">9</span>).<span class="hljs-title function_">map</span>(<span class="hljs-function">(<span class="hljs-params">i</span>) =&gt;</span> [<span class="hljs-number">10</span> * i])), (y = v = <span class="hljs-number">0</span>)),
+  (d = <span class="hljs-number">1</span> + T / <span class="hljs-number">999</span>),
+  s.<span class="hljs-title function_">map</span>(<span class="hljs-function">(<span class="hljs-params">u</span>) =&gt;</span> <span class="hljs-title function_">text</span>(<span class="hljs-string">&quot;🔩&quot;</span>, (u[<span class="hljs-number">0</span>] = u[<span class="hljs-number">0</span>] &lt; <span class="hljs-number">99</span> ? u[<span class="hljs-number">0</span>] + d : -<span class="hljs-title function_">R</span>(<span class="hljs-number">30</span>)), <span class="hljs-number">80</span>)),
+  (y += v += (M ? <span class="hljs-number">0.1</span> : <span class="hljs-number">0.2</span>) * d),
+  <span class="hljs-title function_">get</span>(<span class="hljs-number">74</span>, y)[<span class="hljs-number">3</span>] + <span class="hljs-title function_">get</span>(<span class="hljs-number">82</span>, y)[<span class="hljs-number">3</span>] &gt; <span class="hljs-number">0</span> &amp;&amp; ((v = -<span class="hljs-number">1</span>), (y = <span class="hljs-number">72</span>), S++, <span class="hljs-title function_">N</span>(<span class="hljs-number">333</span>, <span class="hljs-number">0.1</span>)),
+  y &gt; <span class="hljs-number">70</span> &amp;&amp; v &lt; <span class="hljs-number">1</span> &amp;&amp; M &amp;&amp; ((v = -<span class="hljs-number">3</span>), <span class="hljs-title function_">N</span>(<span class="hljs-number">444</span>, <span class="hljs-number">0.2</span>)),
+  y &gt; <span class="hljs-number">95</span> &amp;&amp; ((S = y = T = <span class="hljs-number">0</span>), <span class="hljs-title function_">N</span>(<span class="hljs-number">222</span>, <span class="hljs-number">0.5</span>)),
+  <span class="hljs-title function_">text</span>(<span class="hljs-string">&quot;🚗&quot;</span>, <span class="hljs-number">75</span>, y);
+</code></pre>
+<p>With these regulations, creating a game is still manageable. There are also Pong created under stricter regulations, such as not allowing the addition of libraries and including the entire HTML in 226 bytes.<sup><a href="#fn_12" id="reffn_12">12</a></sup> You can see many more excellent codes like this in codegolf JS.<sup><a href="#fn_13" id="reffn_13">13</a></sup></p>
+<p>Under these regulations, crafting a basic game within about an hour is feasible. However, the 256-character constraint is stringent, and attempting to implement intricate movements quickly exceeds the character limit. It’s disheartening when a game around 270 characters is crafted, and despite utilizing clever techniques, a reduction to meet the constraint necessitates downsizing the game system. Yet, without the 256-character constraint, there’s endless potential for adding effects and tweaking game balance. Thus, even if disheartening, abandoning these extras is part of the challenge.</p>
+<p>The quick output achievable with size-constrained game development is intriguing. The notion that games can be crafted within such limited sizes implies that the rules and mechanics are significantly streamlined. Such constraints yield interesting games, serving as treasure troves of excellent ideas.</p>
+<p>However, self-imposed size constraints often act more as shackles than as contributors to early completion, hence it&apos;s recommended only for those who find overcoming size constraints enjoyable. Numerous libraries and techniques exist for size compression.<sup><a href="#fn_14" id="reffn_14">14</a></sup> You can refer to these to gauge your interest and ascertain your aptitude, based on whether you find the concept amusing.</p>
+<hr>
+<blockquote id="fn_1">
+<sup>1</sup>. <a href="https://js13kgames.com/" target="_blank">js13kGames</a><a href="#reffn_1" title="Jump back to footnote [1] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_2">
+<sup>2</sup>. <a href="https://ggplot2.tidyverse.org/" target="_blank">ggplot2</a><a href="#reffn_2" title="Jump back to footnote [2] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_3">
+<sup>3</sup>. <a href="https://fronkonstin.com/2017/12/23/tiny-art-in-less-than-280-characters/" target="_blank">Tiny Art in Less Than 280 Characters</a><a href="#reffn_3" title="Jump back to footnote [3] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_4">
+<sup>4</sup>. <a href="https://archive.org/details/sc140" target="_blank">sc140</a><a href="#reffn_4" title="Jump back to footnote [4] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_5">
+<sup>5</sup>. <a href="https://supercollider.github.io/" target="_blank">SuperCollider</a><a href="#reffn_5" title="Jump back to footnote [5] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_6">
+<sup>6</sup>. <a href="https://www.dwitter.net/" target="_blank">Dwitter</a><a href="#reffn_6" title="Jump back to footnote [6] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_7">
+<sup>7</sup>. <a href="https://www.dwitter.net/d/4671" target="_blank">Crossy tortoise</a><a href="#reffn_7" title="Jump back to footnote [7] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_8">
+<sup>8</sup>. <a href="https://p5js.org/" target="_blank">p5.js</a><a href="#reffn_8" title="Jump back to footnote [8] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_9">
+<sup>9</sup>. <a href="https://tonejs.github.io/" target="_blank">Tone.js</a><a href="#reffn_9" title="Jump back to footnote [9] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_10">
+<sup>10</sup>. <a href="https://lodash.com/docs#range" target="_blank">lodash.range</a><a href="#reffn_10" title="Jump back to footnote [10] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_11">
+<sup>11</sup>. <a href="https://github.com/abagames/jsgame256" target="_blank">jsgame256</a><a href="#reffn_11" title="Jump back to footnote [11] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_12">
+<sup>12</sup>. <a href="https://github.com/codegolf/ping" target="_blank">PING - A Game in &lt; 256 Bytes of HTML+JS</a><a href="#reffn_12" title="Jump back to footnote [12] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_13">
+<sup>13</sup>. <a href="https://gist.github.com/xem/206db44adbdd09bac424" target="_blank">codegolf JS</a><a href="#reffn_13" title="Jump back to footnote [13] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_14">
+<sup>14</sup>. <a href="https://js13kgames.github.io/resources/" target="_blank">js13kGames Resources</a><a href="#reffn_14" title="Jump back to footnote [14] in the text."> ↩</a>
+</blockquote>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="one_button.html" class="navigation navigation-prev " aria-label="Previous page: The Possibilities of One-Button Games">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../difficulty/" class="navigation navigation-next " aria-label="Next page: What Constitutes Appropriate Difficulty in Small Games">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Creating Games within Limited Size Constraints","level":"1.5.2","depth":2,"next":{"title":"What Constitutes Appropriate Difficulty in Small Games","level":"1.6","depth":1,"path":"difficulty/README.md","ref":"difficulty/README.md","articles":[{"title":"Rising Difficulty Curve","level":"1.6.1","depth":2,"path":"difficulty/curve.md","ref":"difficulty/curve.md","articles":[]},{"title":"Level-based Difficulty Setting","level":"1.6.2","depth":2,"path":"difficulty/level.md","ref":"difficulty/level.md","articles":[]}]},"previous":{"title":"The Possibilities of One-Button Games","level":"1.5.1","depth":2,"path":"restrictions/one_button.md","ref":"restrictions/one_button.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"abagames","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Joys of Small Game Development","gitbook":"*","description":"Guidebook for Enjoying Creating Small Games"},"file":{"path":"restrictions/limited_size.md","mtime":"2023-10-01T02:08:42.753Z","type":"markdown"},"gitbook":{"version":"5.1.1","time":"2023-10-05T11:03:45.764Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

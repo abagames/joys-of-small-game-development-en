@@ -1,0 +1,675 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Automatic Level Generation for Puzzle Games · Joys of Small Game Development</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 5.1.1">
+        <meta name="author" content="abagames">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../generation/" />
+    
+    
+    <link rel="prev" href="sound.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../fun_to_make_small_games.html">
+            
+                <a href="../fun_to_make_small_games.html">
+            
+                    
+                    Making small games, which is fun in itself
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../device_and_environment.html">
+            
+                <a href="../device_and_environment.html">
+            
+                    
+                    Target Devices and Development Environment
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../ideas/">
+            
+                <a href="../ideas/">
+            
+                    
+                    How to Come Up with Ideas for Small Games
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../ideas/break_down_game.html">
+            
+                <a href="../ideas/break_down_game.html">
+            
+                    
+                    Dissecting and Assembling Game Mechanics
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../restrictions/">
+            
+                <a href="../restrictions/">
+            
+                    
+                    Constraints: A Catalyst for Creativity and Game Completion
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../restrictions/one_button.html">
+            
+                <a href="../restrictions/one_button.html">
+            
+                    
+                    The Possibilities of One-Button Games
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../restrictions/limited_size.html">
+            
+                <a href="../restrictions/limited_size.html">
+            
+                    
+                    Creating Games within Limited Size Constraints
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../difficulty/">
+            
+                <a href="../difficulty/">
+            
+                    
+                    What Constitutes Appropriate Difficulty in Small Games
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../difficulty/curve.html">
+            
+                <a href="../difficulty/curve.html">
+            
+                    
+                    Rising Difficulty Curve
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../difficulty/level.html">
+            
+                <a href="../difficulty/level.html">
+            
+                    
+                    Level-based Difficulty Setting
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../make_game_juicy.html">
+            
+                <a href="../make_game_juicy.html">
+            
+                    
+                    Making Games ‘Juicy’
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../tools/">
+            
+                <a href="../tools/">
+            
+                    
+                    Creating Your Own Game Development Tools
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../tools/for_browser.html">
+            
+                <a href="../tools/for_browser.html">
+            
+                    
+                    Creating a Library for Small Browser Games
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../tools/for_handheld.html">
+            
+                <a href="../tools/for_handheld.html">
+            
+                    
+                    Developing Games for DIY Handheld Devices
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../tools/fantasy_console.html">
+            
+                <a href="../tools/fantasy_console.html">
+            
+                    
+                    Creating a Fantasy Console
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Enhancing Development through Automation
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="pixel_art.html">
+            
+                <a href="pixel_art.html">
+            
+                    
+                    Automatic Pixel Art Generation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="sound.html">
+            
+                <a href="sound.html">
+            
+                    
+                    Automated Generation of Background Music and Sound Effects
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.9.3" data-path="puzzle_level.html">
+            
+                <a href="puzzle_level.html">
+            
+                    
+                    Automatic Level Generation for Puzzle Games
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../generation/">
+            
+                <a href="../generation/">
+            
+                    
+                    Can Small Games Be Self-Generated?
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../generation/ai_chatbot_new_puzzle.html">
+            
+                <a href="../generation/ai_chatbot_new_puzzle.html">
+            
+                    
+                    Creating Puzzle Games with AI Chatbot
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="../generation/ai_chatbot_combine_tags.html">
+            
+                <a href="../generation/ai_chatbot_combine_tags.html">
+            
+                    
+                    Teaching Game Mechanics to AI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="../generation/can_ai_chatbot_create_game.html">
+            
+                <a href="../generation/can_ai_chatbot_create_game.html">
+            
+                    
+                    Can AI Chatbots Create New Games?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../conclusion.html">
+            
+                <a href="../conclusion.html">
+            
+                    
+                    In Conclusion
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Automatic Level Generation for Puzzle Games</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="automatic-level-generation-for-puzzle-games">Automatic Level Generation for Puzzle Games</h2>
+<p>In this section, let&apos;s explore automatic level generation, or in other words, the automatic generation of puzzle patterns. While games like Game &amp; Watch are played on a single screen, many games have multiple levels or terrains that appear as you scroll, necessitating the generation of levels.</p>
+<p>The quality of level creation directly impacts the gameplay, especially in puzzle games. Particularly in non-action puzzle games like Sokoban,<sup><a href="#fn_1" id="reffn_1">1</a></sup> it&apos;s crucial to create levels that are enjoyable to solve.</p>
+<p>Various level generators for Sokoban already exist. The typical method of creation includes:</p>
+<ol>
+<li>Creating an empty room where no boxes are placed.</li>
+<li>Placing boxes in the correct positions.</li>
+<li>Simulating the game in reverse to distribute the boxes around.</li>
+</ol>
+<p>The third step essentially ensures that if a player were to &quot;pull&quot; and shift the boxes, the boxes can indeed be moved to their correct positions.</p>
+<p>One generator implementation based on the above method,<sup><a href="#fn_2" id="reffn_2">2</a></sup> if a player gets stuck, it backtracks to search for other arrangements. A paper on the generation method <sup><a href="#fn_3" id="reffn_3">3</a></sup> introduced metrics such as the number of times a player pushes a box in a straight line or goes to push another box, with the aim of creating levels where boxes are placed as far from the correct positions as possible, thereby increasing the tasks a player must perform.</p>
+<p>There&apos;s also a paper aiming to generate levels for any puzzle created <sup><a href="#fn_4" id="reffn_4">4</a></sup> using the universal puzzle game creation language known as PuzzleScript.<sup><a href="#fn_5" id="reffn_5">5</a></sup> By passing the characteristics of game objects from the PuzzleScript rule analyzer to the level generator and evaluator, levels are created. This approach, where the evaluator determines whether a generated level is solvable or enjoyable, differs from the aforementioned reverse simulation method.</p>
+<p>While existing approaches are diverse, let’s attempt level generation for our custom puzzle game.</p>
+<p>I attempted to create a puzzle game, slickslack,<sup><a href="#fn_6" id="reffn_6">6</a></sup> reminiscent of a mix between Sokoban and Pengo.<sup><a href="#fn_7" id="reffn_7">7</a></sup> The object of the game is to flick the boxes, which appear as blue squares, into the correct yellow position (click the image to play).</p>
+<p><a href="https://abagames.github.io/slickslack/index.html" target="_blank"><img src="https://abagames.github.io/slickslack/screenshot.gif" alt="slickslack_screenshot"></a></p>
+<p>The level auto-generation method adopted is similar to other Sokoban generators, simulating the game in reverse from the correct answers. However, rather than creating an empty room initially, a room entirely of walls is created, and while slipping the boxes in reverse, walls are excavated.</p>
+<p><img src="https://abagames.github.io/slickslack/screenshot_generating.gif" alt="slickslack_screenshot_generating"></p>
+<ol>
+<li>Create a room of arbitrary size consisting entirely of walls (or spaces that can either be walls or empty).</li>
+<li>Place boxes in correct positions.</li>
+<li>Slip boxes in arbitrary directions for arbitrary distances.</li>
+<li>Place walls opposite to the slipping direction at the start of the slip to ensure boxes stop there.</li>
+<li>Confirm the slipped area as empty (excavate the wall).</li>
+</ol>
+<p>Perform the above slipping action for an arbitrary number of times to create a level. However, creating levels this way without consideration doesn’t guarantee enjoyable levels, so some tweaking is done.</p>
+<p>Since this puzzle lacks a player character, boxes can be slipped quite freely. Therefore, to achieve a puzzling feel, the order of slipping boxes, or how to stop boxes at the right places by hitting other boxes, and interactions between boxes need to be considered. Also, too many walls reduce the gameplay constraints, diminishing the puzzle-like feel. Considering these, the following tweaks were made:</p>
+<ul>
+<li>Prefer directions that allow boxes to be stopped by existing walls or other boxes when slipping, avoiding creating new walls.</li>
+<li>Aim to position boxes adjacent to other boxes after slipping.</li>
+</ul>
+<p>I also created another auto-generating level puzzle game named HAKOSAN.<sup><a href="#fn_8" id="reffn_8">8</a></sup> The goal is to slide three characters simultaneously using the arrow keys to reach the red destination (click the image to play).</p>
+<p><a href="https://abagames.github.io/hakosan/build/" target="_blank"><img src="https://raw.githubusercontent.com/abagames/hakosan/main/docs/screenshot.gif" alt="HAKOSAN" width="640"></a></p>
+<p>Similarly, levels are generated by reversing the characters&apos; slides from the destination.</p>
+<p>Thus, this method of auto-generating problems by reversing the puzzle from the correct answer proves to be applicable in many scenarios. Adding an evaluator like the one mentioned in the PuzzleScript paper, to determine the fun factor of generated levels and select them, could enhance this method. This paper evaluates levels using various metrics: the distance between boxes and correct positions, the number of player moves, the number of applied rules, and so on. While there&apos;s no certainty that these metrics accurately reflect the enjoyment of solving the levels, they seem useful for filtering out clearly unenjoyable levels. With adequate resources, incorporating such refinements could lead to improved level generation.</p>
+<hr>
+<blockquote id="fn_1">
+<sup>1</sup>. <a href="https://en.wikipedia.org/wiki/Sokoban" target="_blank">Sokoban</a><a href="#reffn_1" title="Jump back to footnote [1] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_2">
+<sup>2</sup>. <a href="https://github.com/miki151/sokoban" target="_blank">sokoban</a><a href="#reffn_2" title="Jump back to footnote [2] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_3">
+<sup>3</sup>. <a href="https://ianparberry.com/pubs/GAMEON-NA_METH_03.pdf" target="_blank">Procedural Generation of Sokoban Levels (pdf)</a><a href="#reffn_3" title="Jump back to footnote [3] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_4">
+<sup>4</sup>. <a href="https://www.um.edu.mt/library/oar/bitstream/123456789/81990/1/Automatic_puzzle_level_generation_a_general_approach_using_a_description_language_2015.pdf" target="_blank">Automatic Puzzle Level Generation: A General Approach using a Description Language (pdf)</a><a href="#reffn_4" title="Jump back to footnote [4] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_5">
+<sup>5</sup>. <a href="http://www.puzzlescript.net/" target="_blank">PuzzleScript</a><a href="#reffn_5" title="Jump back to footnote [5] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_6">
+<sup>6</sup>. <a href="https://github.com/abagames/slickslack" target="_blank">slickslack</a><a href="#reffn_6" title="Jump back to footnote [6] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_7">
+<sup>7</sup>. <a href="https://en.wikipedia.org/wiki/Pengo_%28video_game%29" target="_blank">Pengo (video game)</a><a href="#reffn_7" title="Jump back to footnote [7] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_8">
+<sup>8</sup>. <a href="https://github.com/abagames/hakosan" target="_blank">hakosan</a><a href="#reffn_8" title="Jump back to footnote [8] in the text."> ↩</a>
+</blockquote>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="sound.html" class="navigation navigation-prev " aria-label="Previous page: Automated Generation of Background Music and Sound Effects">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../generation/" class="navigation navigation-next " aria-label="Next page: Can Small Games Be Self-Generated?">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Automatic Level Generation for Puzzle Games","level":"1.9.3","depth":2,"next":{"title":"Can Small Games Be Self-Generated?","level":"1.10","depth":1,"path":"generation/README.md","ref":"generation/README.md","articles":[{"title":"Creating Puzzle Games with AI Chatbot","level":"1.10.1","depth":2,"path":"generation/ai_chatbot_new_puzzle.md","ref":"generation/ai_chatbot_new_puzzle.md","articles":[]},{"title":"Teaching Game Mechanics to AI","level":"1.10.2","depth":2,"path":"generation/ai_chatbot_combine_tags.md","ref":"generation/ai_chatbot_combine_tags.md","articles":[]},{"title":"Can AI Chatbots Create New Games?","level":"1.10.3","depth":2,"path":"generation/can_ai_chatbot_create_game.md","ref":"generation/can_ai_chatbot_create_game.md","articles":[]}]},"previous":{"title":"Automated Generation of Background Music and Sound Effects","level":"1.9.2","depth":2,"path":"procedural/sound.md","ref":"procedural/sound.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"abagames","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Joys of Small Game Development","gitbook":"*","description":"Guidebook for Enjoying Creating Small Games"},"file":{"path":"procedural/puzzle_level.md","mtime":"2023-10-04T14:27:43.685Z","type":"markdown"},"gitbook":{"version":"5.1.1","time":"2023-10-05T11:03:45.764Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
