@@ -6,7 +6,7 @@ A slightly more flexible approach involves adding dots that are randomly turned 
 
 I have also crafted a pixel art creation library following the method of random dot alteration.[^3] For instance, creating various shapes of spaceships using this library results in the following (click on the image to go to the demo page).
 
-[![pixel-art-gen](https://camo.githubusercontent.com/9020e7dc180bc5c301d6ff1a65183bfa292e97c8acb154caf569b9a2b4826c2a/68747470733a2f2f61626167616d65732e6769746875622e696f2f706978656c2d6172742d67656e2f73686970732e676966)](https://abagames.github.io/pixel-art-gen/index.html?ships)
+[![pixel-art-gen](../images/ships.gif)](https://abagames.github.io/pixel-art-gen/index.html?ships)
 
 The products of this method are highly randomized, excelling at creating free-form characters like spaceships. However, they struggle with characters with constraints like monsters viewed from the side with distinct eyes, arms, and legs. Therefore, pixel art generators come with inherent strengths and weaknesses, with no one-size-fits-all solution available.
 
