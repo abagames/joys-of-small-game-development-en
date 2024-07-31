@@ -1,6 +1,6 @@
 ## Can AI Chatbots Create New Games?
 
-AI chatbots equipped with Large Language Models (LLMs) are capable of generating game ideas and implementing code. However, their abilities are still in development, and they cannot yet create well-balanced games without human intervention. Nevertheless, recent improvements in LLM performance have enabled them to handle many aspects of mini-game development.
+AI chatbots equipped with Large Language Models (LLMs) are capable of generating game ideas and implementing code. However, their abilities are still in development, and they cannot yet create well-balanced games without human intervention. Nevertheless, recent improvements in LLM performance have enabled them to handle many aspects of small game development.
 
 ### The GPT-3.5 Era
 
