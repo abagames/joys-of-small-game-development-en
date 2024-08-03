@@ -4,7 +4,7 @@ Until now, the discussion has primarily centered around games without a concept 
 
 It's essential for the game to gradually become more challenging as the levels progress; otherwise, it may lack excitement. Yet, a mere linear increase in difficulty can result in a lack of variation. How can a level design be devised that becomes increasingly challenging with a fair amount of fluctuation? As an example, the method using the following graph is demonstrated.
 
-<img src="https://chart.googleapis.com/chart?cht=lc&chs=400x300&chd=t:-1|-1|-1|-1|-1&chdl=LEVEL1|LEVEL10|LEVEL50|LEVEL100|LEVEL200&chco=4444CC,44CCCC,44CC44,CCCC44,CC4444&chxr=0,0,1,0.2|1,0,1,0.2&chfd=0,x,0,1,0.01,(x^100)*100|1,x,0,1,0.01,(x^10)*100|2,x,0,1,0.01,(x^2)*100|3,x,0,1,0.01,(x^1)*100|4,x,0,1,0.01,(x^.5)*100&chxt=x,y,x,y&chxl=2:|random|3:|difficulty&chxp=2,50|3,50" alt="level-difficulty-curve" />
+<img src="../images/difficulty_chart.png" alt="level-difficulty-curve" />
 
 The horizontal axis represents a value obtained from a `random` function that returns a random value between 0 and 1. The vertical axis represents difficulty, where 0 is the easiest, and 1 is the most challenging. Before starting a level, a value is obtained from the `random` function and set as the horizontal axis value, with the corresponding difficulty assigned as that level’s difficulty level.
 
